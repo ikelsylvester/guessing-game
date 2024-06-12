@@ -1,0 +1,49 @@
+.container {
+    text-align: center;
+    margin-top: 10vh;
+    background-color: darkblue;
+    width: 80%;
+    max-width: 400px; /* Added max-width for responsiveness */
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    height: 10%;
+    border: none;
+    border-radius: .5rem;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: .5rem;
+    background-color: white;
+    color: darkblue;
+}
+
+p {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
