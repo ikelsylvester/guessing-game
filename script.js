@@ -15,6 +15,11 @@ function startGame() {
 
 function checkGuess() {
     let userGuess = parseInt(document.getElementById('guessInput').value);
+      // Check if the user input is a valid number between 1 and 100
+      if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
+        document.getElementById('message').innerHTML = "Please enter a number between 1 and 100.";
+        return; // Exit the function early if input is invalid
+    }
     attemptCount++;
     document.getElementById('attemptCount').innerHTML = attemptCount;
 
